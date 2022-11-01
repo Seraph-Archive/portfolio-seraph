@@ -3,7 +3,9 @@ import 'bootstrap'
  export default function Home() {
     return (
         <div>
-            <h1>Cock and Balls</h1>
+            <div className="container-fluid">
+                <h1 className="display-5 fw-bold text-start text-light">Ethan Clary</h1>
+            </div>
         </div>
     )
  }
